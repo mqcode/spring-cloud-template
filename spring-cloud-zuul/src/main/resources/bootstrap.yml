@@ -1,0 +1,9 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: spring-cloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cloud:cloud@127.0.0.1:9001/eureka/

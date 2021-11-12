@@ -1,0 +1,22 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: spring-cloud-eureka
+  security:
+    user:
+      name: cloud
+      password: cloud
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    #禁止将eureka自身注册到注册中心
+    register-with-eureka: false
+    #是否需要从eureka中抓取路径[eureka server不需要]
+    fetch-registry: false
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}/eureka/
+  #关闭自我保护机制
+  server:
+    enable-self-preservation: false

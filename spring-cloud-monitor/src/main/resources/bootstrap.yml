@@ -1,0 +1,13 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: spring-cloud-monitor
+  security:
+    user:
+      name: admin
+      password: admin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cloud:cloud@127.0.0.1:9001/eureka/
