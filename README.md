@@ -28,6 +28,13 @@
 解决方案
 hosts文件配置不同的域名,或者一个用127.0.0.1,另一个用localhost不要同域名访问。
 ```
+## 使用经验
+```
+gateway加以下配置,和zuul任何配置都不加,效果一样
+即从注册中心自动获取服务
+spring.cloud.gateway.discovery.locator.enabled: true
+```
+
 ## 关于作者
 ```
 职业:软件工程师

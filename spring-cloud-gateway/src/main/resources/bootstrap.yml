@@ -5,8 +5,8 @@ spring:
     name: spring-cloud-gateway
   cloud:
     # 开启SpringCloud Gateway的注册中心发现配置，
-    # 开启后可自动从服务注册中心拉取服务列表，通过
-    # 各个服务的spring.application.name作为前缀进行转发
+    # 开启后可自动从服务注册中心拉取服务列表，
+    # 通过各个服务的spring.application.name作为前缀进行转发
     gateway:
       discovery:
         locator:

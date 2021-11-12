@@ -7,3 +7,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://cloud:cloud@127.0.0.1:9001/eureka/
+# zuul什么配置都不加时,默认
+# 通过各个服务的spring.application.name作为前缀进行转发
+logging:
+  level:
+    org.springframework.cloud.netflix.zuul.web: debug
