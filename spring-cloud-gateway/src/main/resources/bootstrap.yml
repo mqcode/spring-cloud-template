@@ -3,7 +3,19 @@ server:
 spring:
   application:
     name: spring-cloud-gateway
+  cloud:
+    # 开启SpringCloud Gateway的注册中心发现配置，
+    # 开启后可自动从服务注册中心拉取服务列表，通过
+    # 各个服务的spring.application.name作为前缀进行转发
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 eureka:
   client:
     service-url:
       defaultZone: http://cloud:cloud@127.0.0.1:9001/eureka/
+# 配置Gateway日志等级，输出转发细节信息
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

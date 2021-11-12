@@ -7,11 +7,18 @@
 |  ----  | ----  |
 | spring boot | 2.3.2.RELEASE |
 | spring cloud  | Hoxton.SR9 |
-| spring cloud alibaba  | 2.2.6.RELEASE |  
+| spring cloud alibaba  | 2.2.6.RELEASE |
 ## 更多版本对应关系请参考  
 [Spring Cloud官网](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-Hoxton-Release-Notes)  
 [Spring Cloud Alibaba官网](https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E)  
 
+## 项目目录
+|  模块   | 描述  |
+|  ----  | ----  |
+| spring-cloud-eureka | eureka注册中心 |
+| spring-cloud-gateway | gateway网关 |
+| spring-cloud-monitor | 基于spring-boot-admin的服务监控系统 |  
+| spring-cloud-zuul | 基于zuul和hystrix的网关 |  
 ## 踩过的坑
 ```
 两个SpringSecurity本地项目登录冲突问题
