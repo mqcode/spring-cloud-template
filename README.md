@@ -1,5 +1,5 @@
 ## spring-cloud-template  
-> 一个高可用的分布式样板工程
+> 一个高可用的微服务分布式样板工程,基于spring cloud & spring cloud alibaba
 
 [![Build Status](https://ci.spring.io/api/v1/teams/spring-framework/pipelines/spring-framework-5.3.x/jobs/build/badge)](https://ci.spring.io/teams/spring-framework/pipelines/spring-framework-5.3.x?groups=Build")  
 ## 组件版本  
