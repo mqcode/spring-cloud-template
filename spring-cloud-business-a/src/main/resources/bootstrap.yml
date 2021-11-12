@@ -1,0 +1,13 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: spring-cloud-business-a
+  security:
+    user:
+      name: admin
+      password: admin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cloud:cloud@127.0.0.1:9001/eureka/

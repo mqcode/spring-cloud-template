@@ -8,6 +8,9 @@
     <module>spring-cloud-eureka</module>
     <module>spring-cloud-zuul</module>
     <module>spring-cloud-monitor</module>
+      <module>spring-cloud-business-a</module>
+    <module>spring-cloud-business-b</module>
+    <module>spring-cloud-business-c</module>
   </modules>
 
   <parent>

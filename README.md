@@ -13,12 +13,17 @@
 [Spring Cloud Alibaba官网](https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E)  
 
 ## 项目目录
+以下模块均支持`分布式多节点部署`
+
 |  模块   | 描述  |
 |  ----  | ----  |
 | spring-cloud-eureka | eureka注册中心 |
 | spring-cloud-gateway | gateway网关 |
 | spring-cloud-monitor | 基于spring-boot-admin的服务监控系统 |  
 | spring-cloud-zuul | 基于zuul和hystrix的网关 |  
+| spring-cloud-business-a | 业务服务A |  
+| spring-cloud-business-b | 业务服务B |  
+| spring-cloud-business-c | 业务服务C |  
 ## 踩过的坑
 ```
 两个SpringSecurity本地项目登录冲突问题
