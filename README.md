@@ -20,10 +20,23 @@
 | spring-cloud-eureka | eureka注册中心 |
 | spring-cloud-gateway | gateway网关 |
 | spring-cloud-monitor | 基于spring-boot-admin的服务监控系统 |  
-| spring-cloud-zuul | 基于zuul和hystrix的网关 |  
+| spring-cloud-zuul | 基于zuul的网关 |  
 | spring-cloud-business-a | 业务服务A |  
 | spring-cloud-business-b | 业务服务B |  
-| spring-cloud-business-c | 业务服务C |  
+| spring-cloud-business-c | 业务服务C |
+
+## 各模块部署效果
+### 整体工程
+![avatar](./README/整体工程.png)
+### eureka注册中心
+![avatar](./README/eureka注册中心.png)
+### admin微服务监控
+![avatar](./README/admin微服务监控.png)
+### Gateway网关聚合swagger3
+![avatar](./README/cloud gateway聚合swagger.png)
+### Zuul网关聚合swagger3
+![avatar](./README/zuul聚合swagger.png)
+
 ## 踩过的坑
 ```
 两个SpringSecurity本地项目登录冲突问题

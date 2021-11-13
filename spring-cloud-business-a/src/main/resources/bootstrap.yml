@@ -2,7 +2,9 @@ server:
   port: 9011
 spring:
   application:
-    name: spring-cloud-business-a
+    name: @pom.artifactId@
+    description: @pom.description@
+    version: @pom.version@
   security:
     user:
       name: admin

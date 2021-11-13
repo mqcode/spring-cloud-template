@@ -2,7 +2,7 @@ server:
   port: 9004
 spring:
   application:
-    name: spring-cloud-monitor
+    name: @pom.artifactId@
   security:
     user:
       name: admin

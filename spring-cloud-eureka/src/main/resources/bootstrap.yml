@@ -2,7 +2,7 @@ server:
   port: 9001
 spring:
   application:
-    name: spring-cloud-eureka
+    name: @pom.artifactId@
   security:
     user:
       name: cloud

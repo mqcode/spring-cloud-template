@@ -2,7 +2,7 @@ server:
   port: 9007
 spring:
   application:
-    name: spring-cloud-zuul
+    name: @pom.artifactId@
 eureka:
   client:
     service-url:

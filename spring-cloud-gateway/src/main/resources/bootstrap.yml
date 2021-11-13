@@ -2,7 +2,7 @@ server:
   port: 9000
 spring:
   application:
-    name: spring-cloud-gateway
+    name: @pom.artifactId@
   cloud:
     # 开启SpringCloud Gateway的注册中心发现配置，
     # 开启后可自动从服务注册中心拉取服务列表，
