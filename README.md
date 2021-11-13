@@ -33,7 +33,7 @@
 ### admin微服务监控
 ![avatar](./README/admin微服务监控.png)
 ### Gateway网关聚合swagger3
-![avatar](./README/cloud gateway聚合swagger.png)
+![avatar](README/gateway聚合swagger.png)
 ### Zuul网关聚合swagger3
 ![avatar](./README/zuul聚合swagger.png)
 
